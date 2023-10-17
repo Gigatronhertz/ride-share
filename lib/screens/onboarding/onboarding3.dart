@@ -21,7 +21,7 @@ class Onboarding3 extends StatelessWidget {
               ),
             )),
             Padding(
-              padding: const EdgeInsets.only(top: 140),
+              padding: const EdgeInsets.only(top: 100),
               child: Container(
                 child: Image.asset("assets/images/onboarding3.png"),
               ),
@@ -44,7 +44,7 @@ class Onboarding3 extends StatelessWidget {
                   textAlign: TextAlign.center),
             ),
             SizedBox(
-              height: 120,
+              height: 100,
             ),
             Stack(
               children: [
@@ -61,8 +61,8 @@ class Onboarding3 extends StatelessWidget {
                     ),
                   ),
                 ),
-                 Padding(
-                  padding: const EdgeInsets.only(left: 170.7, top: 7),
+              Padding(
+                  padding: const EdgeInsets.only(left: 145, top: 7,right: 100),
                   child: Container(
                     height: 70,
                     width: 70,
