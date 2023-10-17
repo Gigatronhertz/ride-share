@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:rideshare/components/colors.dart';
 import 'package:rideshare/components/textstyle.dart';
+import 'package:rideshare/screens/SplashScreen.dart';
 
-import 'onboarding2.dart';
-
-class Onboarding1 extends StatelessWidget {
-  const Onboarding1({super.key});
+class Onboarding3 extends StatelessWidget {
+  const Onboarding3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,14 +23,14 @@ class Onboarding1 extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 140),
               child: Container(
-                child: Image.asset("assets/images/onboarding1.png"),
+                child: Image.asset("assets/images/onboarding3.png"),
               ),
             ),
             SizedBox(
               height: 40,
             ),
             Text(
-              "Anywhere you are",
+              "Book your car",
               style: headingText,
             ),
             SizedBox(
@@ -55,7 +54,7 @@ class Onboarding1 extends StatelessWidget {
                     height: 84,
                     width: 84,
                     child: CircularProgressIndicator(
-                      value: 0.4,
+                      value: 1,
                       backgroundColor: lightgreen,
                       strokeCap: StrokeCap.round,
                       color: green,
@@ -76,7 +75,7 @@ class Onboarding1 extends StatelessWidget {
                           Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => Onboarding2(),
+                                builder: (context) => SplashScreen(),
                               ));
                         },
                         icon: Icon(Icons.arrow_forward_sharp)),

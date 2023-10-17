@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:rideshare/components/colors.dart';
 import 'package:rideshare/components/textstyle.dart';
 
-import 'onboarding2.dart';
+import 'onboarding3.dart';
 
-class Onboarding1 extends StatelessWidget {
-  const Onboarding1({super.key});
+class Onboarding2 extends StatelessWidget {
+  const Onboarding2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,14 +24,14 @@ class Onboarding1 extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 140),
               child: Container(
-                child: Image.asset("assets/images/onboarding1.png"),
+                child: Image.asset("assets/images/At anytime.png"),
               ),
             ),
             SizedBox(
               height: 40,
             ),
             Text(
-              "Anywhere you are",
+              "At anytime",
               style: headingText,
             ),
             SizedBox(
@@ -55,7 +55,7 @@ class Onboarding1 extends StatelessWidget {
                     height: 84,
                     width: 84,
                     child: CircularProgressIndicator(
-                      value: 0.4,
+                      value: 0.6,
                       backgroundColor: lightgreen,
                       strokeCap: StrokeCap.round,
                       color: green,
@@ -76,7 +76,7 @@ class Onboarding1 extends StatelessWidget {
                           Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => Onboarding2(),
+                                builder: (context) => Onboarding3(),
                               ));
                         },
                         icon: Icon(Icons.arrow_forward_sharp)),
