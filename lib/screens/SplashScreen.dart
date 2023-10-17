@@ -1,8 +1,11 @@
-import 'dart:js';
+// ignore_for_file: prefer_const_constructors
+
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:rideshare/components/colors.dart';
+import 'package:rideshare/screens/onboarding/onboarding1.dart';
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -11,13 +14,16 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+
 @override
-void initState(){
-  super.initState();
-  Future.delayed(Duration(seconds: 3),(){
-    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>OnboardingScreen()));
-  });
-}
+@override
+void initState() {
+   
+    super.initState();
+    Future.delayed(Duration (seconds: 3),(){
+      Navigator.pushReplacement( context , MaterialPageRoute(builder: (context) =>Onboarding1(),));
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
