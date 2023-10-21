@@ -27,14 +27,14 @@ class Onboarding1 extends StatelessWidget {
                 child: Image.asset("assets/images/onboarding1.png"),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 40,
             ),
             Text(
               "Anywhere you are",
               style: headingText,
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Padding(
@@ -44,7 +44,7 @@ class Onboarding1 extends StatelessWidget {
                   style: subheadingText1,
                   textAlign: TextAlign.center),
             ),
-            SizedBox(
+            const SizedBox(
               height: 100,
             ),
             Stack(
@@ -54,7 +54,7 @@ class Onboarding1 extends StatelessWidget {
                   child: Container(
                     height: 84,
                     width: 84,
-                    child: CircularProgressIndicator(
+                    child: const CircularProgressIndicator(
                       value: 0.4,
                       backgroundColor: lightgreen,
                       strokeCap: StrokeCap.round,
