@@ -1,8 +1,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+    Internet permissions do not affect the `permission_handler` plugin but are required if your app needs access to
+    the internet.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+   <!-- Permissions options for the `location` group -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+
+
     <application
         android:label="rideshare"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyDbQNqfMj5s83KBFjH359LWCnj2rlf2Di4"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
