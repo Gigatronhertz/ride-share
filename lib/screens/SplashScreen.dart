@@ -3,7 +3,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'package:rideshare/components/colors.dart';
+import 'package:rideshare/provider/userprovider.dart';
+import 'package:rideshare/screens/home.dart';
 import 'package:rideshare/screens/onboarding/onboarding1.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -20,8 +23,19 @@ class _SplashScreenState extends State<SplashScreen> {
 void initState() {
    
     super.initState();
-    Future.delayed(Duration (seconds: 3),(){
-      Navigator.pushReplacement( context , MaterialPageRoute(builder: (context) =>Onboarding1(),));
+     Provider.of<Userprovider>(context,listen: false).currentuser();
+    Future.delayed(Duration  (seconds: 3),(){
+     
+ if(Provider.of<Userprovider>(context,listen: false).verifylogin == true){
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => homepage(),
+                          ));
+                    }
+                    else{ Navigator.pushReplacement( context , MaterialPageRoute(builder: (context) =>Onboarding1(),));}
+       
+    
     });
   }
 

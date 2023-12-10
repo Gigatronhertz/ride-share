@@ -1,6 +1,13 @@
-class user {
+
+
+class MyUser  {
+
+
   var userName;
-  var passWord;
   var location;
   var firstName;
+  var eamil;
+  var phone;
+  var password;
+  MyUser({eamil,phone,firstName,password});
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rideshare/components/colors.dart';
 import 'package:rideshare/components/textstyle.dart';
-import 'package:rideshare/screens/authentication/enablelocation.dart';
+import 'package:rideshare/screens/authentication/welcomescreen.dart';
 
 class Onboarding3 extends StatelessWidget {
   const Onboarding3({super.key});
@@ -75,7 +75,7 @@ class Onboarding3 extends StatelessWidget {
                           Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => LocationPermission(),
+                                builder: (context) => WelcomeScreen(),
                               ));
                         },
                         icon: Icon(Icons.arrow_forward_sharp)),
