@@ -1,5 +1,5 @@
 # rideshare
-
+these are the screens that are being implementet in this project 
 A new Flutter project.
 ![23_select_avaiable_car](https://github.com/Gigatronhertz/ride-share/assets/99260886/9042edf6-1987-4e21-b85e-54f66cbd837a)
 ![22_select_transport](https://github.com/Gigatronhertz/ride-share/assets/99260886/2cf832e7-9ff5-42dc-b93b-6b63db8b5f93)
@@ -23,8 +23,6 @@ A new Flutter project.
 ![02_Onboarding](https://github.com/Gigatronhertz/ride-share/assets/99260886/3c840070-8f1b-47f8-a5ed-b35c7bf1d4eb)
 ![01_Onboarding](https://github.com/Gigatronhertz/ride-share/assets/99260886/baba95ef-378b-49e8-80fb-058192e2fb38)
 ![Wallet](https://github.com/Gigatronhertz/ride-share/assets/99260886/8107c013-0752-4732-8159-75d423850c81)
-![Transport](https://github.com/Gigatronhertz/ride-share/assets/99260886/f581b529-a336-46cd-a9a8-82a709212431)
-![Side Menu](https://github.com/Gigatronhertz/ride-share/assets/99260886/de9f32c4-a989-488a-bfed-712623b3c1cf)
 ![Settings](https://github.com/Gigatronhertz/ride-share/assets/99260886/30e1e331-b477-4db5-8b7e-c4b9eb270482)
 ![Referral](https://github.com/Gigatronhertz/ride-share/assets/99260886/d9305a18-bb15-4cf7-a84e-93438935ab0a)
 ![Profile](https://github.com/Gigatronhertz/ride-share/assets/99260886/376cd62e-57f1-4dd5-bf1a-3e99fce86d36)
